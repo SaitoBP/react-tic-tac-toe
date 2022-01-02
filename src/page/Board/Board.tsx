@@ -23,7 +23,14 @@ const Board = () => {
 
         <div className={classes.board}>
           {board.map((_, i) => (
-            <Row key={`row[${i}]`} row={i} board={board} player={player} onClick={onClick} />
+            <Row
+              id={`row-${i}`}
+              key={`row[${i}]`}
+              row={i}
+              board={board}
+              player={player}
+              onClick={onClick}
+            />
           ))}
         </div>
 

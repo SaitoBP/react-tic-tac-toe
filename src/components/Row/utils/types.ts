@@ -1,4 +1,5 @@
 export interface Props {
+  id: string
   row: number
   tiles?: number
   board: any
