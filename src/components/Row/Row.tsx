@@ -5,7 +5,7 @@ import Tile from '../Tile/Tile'
 import { useStyles } from './styles/useStyles'
 import { Props } from './utils/types'
 
-const Row: FC<Props> = ({ row, board, onClick, player, id }) => {
+const Row: FC<Props> = ({ row, board, onClick, player, id, isFinished }) => {
   const classes = useStyles()
 
   return (
@@ -17,6 +17,7 @@ const Row: FC<Props> = ({ row, board, onClick, player, id }) => {
           board={board}
           player={player}
           onClick={onClick}
+          isFinished={isFinished}
         />
       ))}
     </div>

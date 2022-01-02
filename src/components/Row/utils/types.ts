@@ -4,5 +4,6 @@ export interface Props {
   tiles?: number
   board: any
   player: any
+  isFinished: boolean
   onClick: () => void
 }

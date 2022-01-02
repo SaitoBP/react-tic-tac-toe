@@ -30,6 +30,7 @@ const Board = () => {
               board={board}
               player={player}
               onClick={onClick}
+              isFinished={isFinished}
             />
           ))}
         </div>

@@ -17,8 +17,9 @@ For now only the win mechanic is being tested, more tests need to be added
 ## Future Improvements
 
 - ~~Add automatic testing with cypress~~
-- Stop game when someone wins
+- ~~Stop game when someone wins~~
 - Create a starting screen
 - Add multiplayer mode with web sockets
-- Improve styles and animations
+- ~~Improve styles and animations~~
 - Add a bot for single player mode
+- Show how the player win
