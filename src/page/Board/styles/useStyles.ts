@@ -15,6 +15,9 @@ export const useStyles = createUseStyles({
   },
 
   board: {
+    display: 'grid',
+    gap: '3px',
+    backgroundColor: 'white',
     margin: '20px',
   },
 
@@ -22,13 +25,24 @@ export const useStyles = createUseStyles({
     gridColumn: '1 / 4',
   },
 
-  boardOptions: {
+  boardOptionsContainer: {
     gridRow: '2',
     gridColumn: '1',
 
-    width: '100%',
     display: 'flex',
     justifyContent: 'flex-end',
     alignItems: 'center',
+    width: '100%',
+  },
+
+  boardOptions: {
+    display: 'flex',
+    flexDirection: 'column',
+  },
+
+  actions: {
+    gridRow: '3',
+    gridColumn: '2',
+    justifySelf: 'center',
   },
 })

@@ -6,12 +6,11 @@ export const useStyles = createUseStyles<Classes, Props>({
   tile: {
     width: '110px',
     height: '110px',
-    border: '1px solid #F5F5F5',
     transition: '250ms',
+    backgroundColor: '#141414',
 
     '&:hover': {
       cursor: 'pointer',
-      // backgroundColor: '#1F1F1F',
     },
   },
 
@@ -22,7 +21,7 @@ export const useStyles = createUseStyles<Classes, Props>({
     justifyContent: 'center',
     alignItems: 'center',
 
-    fontSize: '3em',
+    fontSize: '4em',
     textTransform: 'uppercase',
   },
 
